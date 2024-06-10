@@ -1,6 +1,5 @@
 # dbxai-hackathon
 Repo for DataBricks Data + AI Summit
-
 Notes:
 ======
 
@@ -42,3 +41,5 @@ def search_content(query, pdf_to_index, k=3):
     results = pdf_to_index.loc[ids]
     results["similarities"] = similarities
     return results
+
+https://dbc-bd12bb13-c3b7.cloud.databricks.com/?autoLogin=true&o=506420102564974
